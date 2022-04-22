@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: rgba(238, 76, 211, 0.705);
+    color: #f3f3f3;
+    margin: auto;
+    font-size: 20px;
+}
+
+main{
+    color: #fff;
+    text-align: center;
+}
+
+#title{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+#description{
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+}
+
+form{
+    width: 45%;
+    margin: auto;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: unset;
+    text-align: start;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+#name{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin: 10px 20px 30px -5px;    
+}
+
+.email{
+    display: flex;
+    flex-direction:column;
+}
+
+#email{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 10px 20px 30px -5px;
+}
+
+.age{
+    display: flex;
+    flex-direction:column;
+}
+
+
+#number{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 10px 20px 30px -5px;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+#dropdown{
+    margin-bottom: 30px;
+    width: 102%;
+    height: 40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 10px 20px 30px -5px;
+
+}
+
+.radio1{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 30px;
+}
+
+#definitely,
+#maybe{
+    margin-bottom: 5px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 10px 20px 5px -5px;
+}
+
+#Not-sure{
+    margin-bottom: 5px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 10px 20px 5px -5px;   
+}
+
+.clue{
+    font-size: 14px;
+    color: #d3d1d1;
+}
+
+.checkbox{
+    margin-bottom: 5px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:20px;
+    margin: 10px 20px 5px -5px; 
+
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:20px;
+}
+
+#Front-end-Projects,
+#Back-end-Projects,
+#Data-Visualization,
+#Challenges,
+#Open-Source-Community,
+#Gitter-help-rooms,
+#Videos,
+#City-Meetups,
+#Wiki,
+#Forum,
+#Additional-Courses{
+    margin-bottom: 8px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:20px;
+    margin: 10px 20px 8px -5px; 
+}
+
+.area{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+}
+
+#comment{
+    margin-top: 10px;
+}
+
+#submit{
+    margin-bottom: 30px;
+    width: 101%;
+    height: 40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    margin: 30px 20px 30px 0px;
+    background-color: #37af65;
+    color: #f3f3f3;
+}
+
+textarea{
+    font-size: 18px;
+    padding: 10px;
+}
